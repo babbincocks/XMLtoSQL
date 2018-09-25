@@ -1,0 +1,10 @@
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\bin\Debug\XMLtoSQL.exe.config
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\bin\Debug\XMLtoSQL.exe
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\bin\Debug\XMLtoSQL.pdb
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\obj\Debug\XMLtoSQL.csprojAssemblyReference.cache
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\obj\Debug\XMLtoSQL.frmMain.resources
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\obj\Debug\XMLtoSQL.Properties.Resources.resources
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\obj\Debug\XMLtoSQL.csproj.GenerateResource.cache
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\obj\Debug\XMLtoSQL.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\obj\Debug\XMLtoSQL.exe
+C:\Users\Cyberadmin\Desktop\XMLtoSQL\XMLtoSQL\obj\Debug\XMLtoSQL.pdb
