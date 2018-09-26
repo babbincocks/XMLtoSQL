@@ -32,6 +32,7 @@
             this.ofdFile = new System.Windows.Forms.OpenFileDialog();
             this.btnLoad = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
+            this.btnLoadTable = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgData)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,11 +70,22 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // btnLoadTable
+            // 
+            this.btnLoadTable.Location = new System.Drawing.Point(496, 113);
+            this.btnLoadTable.Name = "btnLoadTable";
+            this.btnLoadTable.Size = new System.Drawing.Size(92, 37);
+            this.btnLoadTable.TabIndex = 3;
+            this.btnLoadTable.Text = "Load Data Table";
+            this.btnLoadTable.UseVisualStyleBackColor = true;
+            this.btnLoadTable.Click += new System.EventHandler(this.btnLoadTable_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(646, 299);
+            this.Controls.Add(this.btnLoadTable);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.dgData);
@@ -91,6 +103,7 @@
         private System.Windows.Forms.OpenFileDialog ofdFile;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnLoadTable;
     }
 }
 
