@@ -25,19 +25,19 @@ AS
 BEGIN
 
 IF EXISTS(SELECT * FROM XMLConversionTest WHERE SSN = @SSN)
-
+BEGIN
 UPDATE XMLConversionTest
 SET FirstName = @FirstName, LastName = @LastName, Email = @Email, Gender = @Gender
 WHERE SSN = @SSN
-
+END
 
 ELSE
-
+BEGIN
 INSERT XMLConversionTest(FirstName, LastName, SSN, Email, Gender)
 VALUES (@FirstName, @LastName, @SSN, @Email, @Gender)
 
 SET @ID = SCOPE_IDENTITY()
-
+END
 END
 GO
 

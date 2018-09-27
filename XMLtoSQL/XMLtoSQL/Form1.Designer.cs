@@ -33,6 +33,7 @@
             this.btnLoad = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnLoadTable = new System.Windows.Forms.Button();
+            this.btnAltSave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgData)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,17 +63,17 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(496, 231);
+            this.btnSave.Location = new System.Drawing.Point(496, 158);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(92, 37);
             this.btnSave.TabIndex = 2;
-            this.btnSave.Text = "Save to Database";
+            this.btnSave.Text = "Standard Save to Database";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnLoadTable
             // 
-            this.btnLoadTable.Location = new System.Drawing.Point(496, 113);
+            this.btnLoadTable.Location = new System.Drawing.Point(496, 88);
             this.btnLoadTable.Name = "btnLoadTable";
             this.btnLoadTable.Size = new System.Drawing.Size(92, 37);
             this.btnLoadTable.TabIndex = 3;
@@ -80,11 +81,22 @@
             this.btnLoadTable.UseVisualStyleBackColor = true;
             this.btnLoadTable.Click += new System.EventHandler(this.btnLoadTable_Click);
             // 
+            // btnAltSave
+            // 
+            this.btnAltSave.Location = new System.Drawing.Point(496, 231);
+            this.btnAltSave.Name = "btnAltSave";
+            this.btnAltSave.Size = new System.Drawing.Size(92, 37);
+            this.btnAltSave.TabIndex = 4;
+            this.btnAltSave.Text = "Alternate Save to Database";
+            this.btnAltSave.UseVisualStyleBackColor = true;
+            this.btnAltSave.Click += new System.EventHandler(this.btnAltSave_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(646, 299);
+            this.Controls.Add(this.btnAltSave);
             this.Controls.Add(this.btnLoadTable);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnLoad);
@@ -104,6 +116,7 @@
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnLoadTable;
+        private System.Windows.Forms.Button btnAltSave;
     }
 }
 
